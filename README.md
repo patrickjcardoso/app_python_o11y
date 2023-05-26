@@ -12,6 +12,8 @@ Uma aplicação do tipo Lista de Tarefas.
 * Python 3
 * HTML
 * CSS
+* Docker
+* Mongo
 
 
 ## How to run the application:
