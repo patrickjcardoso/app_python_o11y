@@ -39,11 +39,15 @@ Uma aplicação do tipo Lista de Tarefas.
         source ./bin/activate
         ```
    
-   * Instale o Flask executando o comando 
+   * Instale as dependências executando o comando 
+         
+         pip install -r requirements.txt
+                
+4. Inicialize o container do mongo
 
-        `pip install flask`
+   `docker run --name mymongo -p 27017:27017 -d mongo`
 
-4. Inicialize o servidor da aplicação:
+5. Inicialize o servidor da aplicação:
 
         `python3 app.py`
 
